@@ -1,0 +1,39 @@
+import Image from 'next/image'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+export default function Home() {
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  return (
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      
+<div className="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
+
+    <label htmlFor="" className='flex items-center flex-col '>Password Generator</label>
+    <textarea name="" id="" cols='30' rows="1" className='text-black resize-none ml-4 flex items-center flex-col justify-center'> 
+    </textarea>  <br />
+    
+    <h3>Password Length <span className="mx-10 text-black"><input size={4} type="text" /> </span></h3><br />
+    <h3>Add Uppercase Letters<span className='mx-8'><input size={4} type="checkbox" /></span></h3><br />
+    <h3>Add Lowercase Letters <span className='mx-8'><input size={4} type="checkbox" /></span></h3><br />
+    <h3>Include Numbers<span className='mx-20'><input size={4} type="checkbox" /></span></h3><br />
+    <h3>Include Symbols<span className='mx-20'><input size={4} type="checkbox" /></span></h3>
+
+
+    <button  type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 ml-28 mt-5  mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Generate</button>
+
+
+
+</div>
+
+    </main>
+  )
+}
